@@ -14,6 +14,8 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
+" to allow the backspace key to erase previously entered characters
+set backspace=indent,eol,start
 
 set expandtab
 set textwidth=79
