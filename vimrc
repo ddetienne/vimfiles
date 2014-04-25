@@ -14,14 +14,6 @@ if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif
 
-" To enable plugins and filetype plugins generally, including
-" AutoAlign, have the following in your <.vimrc> file:
-"  Initialize: {{{1
-                set nocp
-                if version >= 600
-                 filetype plugin indent on
-                endif
-
 
 set expandtab
 set textwidth=79
