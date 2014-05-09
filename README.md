@@ -22,10 +22,13 @@ git pull origin master
 git submodule foreach git pull origin master
 ``` 
 ### TO FETCH ALL SUBMODULES:
-``` 
-git submodule update --init --recursive
-``` 
-
-
 
 ### Many thanks to: http://vimcasts.org
+
+
+
+
+
+### TO CHECK VHDL SYNTAX INSTALL GHDL(VHDL SIMULATOR): 
+
+http://gna.org/projects/ghdl/
